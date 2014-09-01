@@ -2,20 +2,29 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>ablock</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>&lt;#retury type#&gt; (^&lt;#block name#&gt;) (&lt;#param#&gt;)</string>
+	<string>
+self = [super init];
+if (!self) {
+  return nil;
+}
+
+&lt;#initializations#&gt;
+
+return self;
+</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>D028D3FB-D5C0-4F20-A772-7D2C779151A9</string>
+	<string>104475B7-25EB-4CC4-9713-8344CC4B5EFF</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Designated incantation for your designated initializers</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>block</string>
+	<string>init</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

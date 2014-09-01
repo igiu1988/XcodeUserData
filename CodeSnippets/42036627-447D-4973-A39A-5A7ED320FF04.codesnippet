@@ -3,19 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>ablock</string>
+	<string>mobclickendlogpageview</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>&lt;#retury type#&gt; (^&lt;#block name#&gt;) (&lt;#param#&gt;)</string>
+	<string>[MobClick endLogPageView:[NSString stringWithFormat:@"%@",NSStringFromClass([self class])]];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>D028D3FB-D5C0-4F20-A772-7D2C779151A9</string>
+	<string>42036627-447D-4973-A39A-5A7ED320FF04</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>block</string>
+	<string>umeng end log view</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

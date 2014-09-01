@@ -2,20 +2,28 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>ablock</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>&lt;#retury type#&gt; (^&lt;#block name#&gt;) (&lt;#param#&gt;)</string>
+	<string>
+dispatch_async(dispatch_get_global_queue(&lt;#dispatch_queue_priority_t priority#&gt;, &lt;#unsigned long flags#&gt;), ^(void) {
+    &lt;#code#&gt;
+    
+    dispatch_async(dispatch_get_main_queue(), ^(void) {
+        &lt;#code#&gt;
+    });
+});
+</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>D028D3FB-D5C0-4F20-A772-7D2C779151A9</string>
+	<string>99BEB737-3A3A-495D-930F-66FC51E4BA4A</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Dispatch to do work in the background, and then to the main queue with the results</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>block</string>
+	<string>dispatch_async Pattern for Background Processing</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

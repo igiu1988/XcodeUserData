@@ -3,19 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>ablock</string>
+	<string>rectprint</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>&lt;#retury type#&gt; (^&lt;#block name#&gt;) (&lt;#param#&gt;)</string>
+	<string>NSLog(@"%@", NSStringFromCGRect(&lt;#rect#&gt;));</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>D028D3FB-D5C0-4F20-A772-7D2C779151A9</string>
+	<string>FD13ADA0-3C27-4009-B834-3B821C224715</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>block</string>
+	<string>打印frame</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

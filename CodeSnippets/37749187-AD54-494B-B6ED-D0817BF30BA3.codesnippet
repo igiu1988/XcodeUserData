@@ -3,19 +3,29 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>ablock</string>
+	<string>UITableViewDelegate</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>&lt;#retury type#&gt; (^&lt;#block name#&gt;) (&lt;#param#&gt;)</string>
+	<string>
+#pragma mark - UITableViewDelegate
+
+- (void)tableView:(UITableView *)tableView 
+didSelectRowAtIndexPath:(NSIndexPath *)indexPath 
+{
+    &lt;#statements#&gt;
+}
+</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>D028D3FB-D5C0-4F20-A772-7D2C779151A9</string>
+	<string>37749187-AD54-494B-B6ED-D0817BF30BA3</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Placeholders for required UITableViewDelegate protocol methods</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>block</string>
+	<string>UITableViewDelegate</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
