@@ -3,23 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>DVTConsoleDebuggerInputTextColor</key>
-	<string>1 1 1 1</string>
+	<string>1 0.200739 0.0591898 1</string>
 	<key>DVTConsoleDebuggerInputTextFont</key>
 	<string>AndaleMono - 13.0</string>
 	<key>DVTConsoleDebuggerOutputTextColor</key>
-	<string>1 1 1 1</string>
+	<string>1 1 0.26221 1</string>
 	<key>DVTConsoleDebuggerOutputTextFont</key>
 	<string>AndaleMono - 13.0</string>
 	<key>DVTConsoleDebuggerPromptTextColor</key>
 	<string>0.255 0.801 0.27 1</string>
 	<key>DVTConsoleDebuggerPromptTextFont</key>
-	<string>AndaleMono - 13.0</string>
+	<string>Menlo-Regular - 14.0</string>
 	<key>DVTConsoleExectuableInputTextColor</key>
-	<string>1 1 1 1</string>
+	<string>1 0 1 1</string>
 	<key>DVTConsoleExectuableInputTextFont</key>
 	<string>AndaleMono - 13.0</string>
 	<key>DVTConsoleExectuableOutputTextColor</key>
-	<string>1 1 1 1</string>
+	<string>0.0174552 1 1 1</string>
 	<key>DVTConsoleExectuableOutputTextFont</key>
 	<string>AndaleMono - 13.0</string>
 	<key>DVTConsoleTextBackgroundColor</key>

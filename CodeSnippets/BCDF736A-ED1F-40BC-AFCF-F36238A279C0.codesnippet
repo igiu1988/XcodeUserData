@@ -2,14 +2,15 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>__weak self</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>
-__weak typeof(self)weakSelf = self;
-</string>
+__weak __typeof(self)weakSelf = self;</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>BCDF736A-ED1F-40BC-AFCF-F36238A279C0</string>
 	<key>IDECodeSnippetLanguage</key>
