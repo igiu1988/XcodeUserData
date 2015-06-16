@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>timeblock</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>/**
+ *  @brief  计算执行block所用的时间
+ *
+ *  @param ^block 要测试的任务
+ *
+ *  @return 任务执行的时间
+ *  @code
+ CGFloat time;
+ 
+ time = BNRTimeBlock(^{
+    // code 你要测试的任务
+ });
+ 
+ NSLog(@"insert用时：%f", time);
+ @endcode
+ */
+CGFloat BNRTimeBlock (void (^block)(void)) {
+    mach_timebase_info_data_t info;
+    if (mach_timebase_info(&amp;info) != KERN_SUCCESS) return -1.0;
+    
+    uint64_t start = mach_absolute_time ();
+    block ();
+    uint64_t end = mach_absolute_time ();
+    uint64_t elapsed = end - start;
+    
+    uint64_t nanos = elapsed * info.numer / info.denom;
+    return (CGFloat)nanos / NSEC_PER_SEC;
+    
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>DF33DB36-4DB5-4CB2-9132-5E784E32F17C</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>计算时间片</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
