@@ -8,69 +8,23 @@
 		<array>
 			<dict>
 				<key>Action</key>
-				<string>uppercaseWord:</string>
+				<string>createSymbolicBreakpoint:</string>
 				<key>Alternate</key>
 				<string>NO</string>
 				<key>CommandID</key>
-				<string>Xcode.IDEKit.CmdDefinition.MakeUpperCase</string>
+				<string>Xcode.IDEKit.CmdDefinition.CreateSymbolicBreakpoint</string>
 				<key>Group</key>
-				<string>Edit Menu</string>
+				<string>Debug Menu</string>
 				<key>GroupID</key>
 				<string>Xcode.IDEKit.MenuDefinition.Main</string>
 				<key>GroupedAlternate</key>
 				<string>NO</string>
-				<key>Keyboard Shortcut</key>
-				<string>^~@u</string>
 				<key>Navigation</key>
 				<string>NO</string>
 				<key>Parent Title</key>
-				<string>Transformations</string>
+				<string>Breakpoints</string>
 				<key>Title</key>
-				<string>Make Upper Case</string>
-			</dict>
-			<dict>
-				<key>Action</key>
-				<string>lowercaseWord:</string>
-				<key>Alternate</key>
-				<string>NO</string>
-				<key>CommandID</key>
-				<string>Xcode.IDEKit.CmdDefinition.MakeLowerCase</string>
-				<key>Group</key>
-				<string>Edit Menu</string>
-				<key>GroupID</key>
-				<string>Xcode.IDEKit.MenuDefinition.Main</string>
-				<key>GroupedAlternate</key>
-				<string>NO</string>
-				<key>Keyboard Shortcut</key>
-				<string>^~@l</string>
-				<key>Navigation</key>
-				<string>NO</string>
-				<key>Parent Title</key>
-				<string>Transformations</string>
-				<key>Title</key>
-				<string>Make Lower Case</string>
-			</dict>
-			<dict>
-				<key>Action</key>
-				<string>toggleNavigatorsVisibility:</string>
-				<key>Alternate</key>
-				<string>NO</string>
-				<key>CommandID</key>
-				<string>Xcode.IDEKit.CmdDefinition.NavigatorsToggleVisibility</string>
-				<key>Group</key>
-				<string>View Menu</string>
-				<key>GroupID</key>
-				<string>Xcode.IDEKit.MenuDefinition.Main</string>
-				<key>GroupedAlternate</key>
-				<string>NO</string>
-				<key>Keyboard Shortcut</key>
-				<string>^@0</string>
-				<key>Navigation</key>
-				<string>NO</string>
-				<key>Parent Title</key>
-				<string>Navigators</string>
-				<key>Title</key>
-				<string>Show Navigator</string>
+				<string>Create Symbolic Breakpoint…</string>
 			</dict>
 			<dict>
 				<key>Action</key>
@@ -96,51 +50,73 @@
 			</dict>
 			<dict>
 				<key>Action</key>
-				<string>showInspectorWithChoiceFromSender:</string>
+				<string>duplicate:</string>
 				<key>Alternate</key>
 				<string>NO</string>
 				<key>CommandID</key>
-				<string>Xcode.InterfaceBuilderKit.InspectorCategory.Effects</string>
+				<string>Xcode.IDEKit.CmdDefinition.Duplicate</string>
 				<key>Group</key>
-				<string>View Menu</string>
+				<string>Edit Menu</string>
 				<key>GroupID</key>
-				<string>Xcode.IDEKit.MenuDefinition.Utilities</string>
+				<string>Xcode.IDEKit.MenuDefinition.Main</string>
 				<key>GroupedAlternate</key>
 				<string>NO</string>
 				<key>Navigation</key>
 				<string>NO</string>
-				<key>Parent Title</key>
-				<string>Utilities</string>
 				<key>Title</key>
-				<string>Show View Effects Inspector</string>
+				<string>Duplicate</string>
 			</dict>
 			<dict>
 				<key>Action</key>
-				<string>showInspectorWithChoiceFromSender:</string>
+				<string>lowercaseWord:</string>
 				<key>Alternate</key>
 				<string>NO</string>
 				<key>CommandID</key>
-				<string>IDESceneKitEditor.InspectorCategory.Material</string>
+				<string>Xcode.IDEKit.CmdDefinition.MakeLowerCase</string>
 				<key>Group</key>
-				<string>View Menu</string>
+				<string>Edit Menu</string>
 				<key>GroupID</key>
-				<string>Xcode.IDEKit.MenuDefinition.Utilities</string>
+				<string>Xcode.IDEKit.MenuDefinition.Main</string>
 				<key>GroupedAlternate</key>
 				<string>NO</string>
+				<key>Keyboard Shortcut</key>
+				<string>^~@l</string>
 				<key>Navigation</key>
 				<string>NO</string>
 				<key>Parent Title</key>
-				<string>Utilities</string>
+				<string>Transformations</string>
 				<key>Title</key>
-				<string>Show Material Inspector</string>
+				<string>Make Lower Case</string>
 			</dict>
 			<dict>
 				<key>Action</key>
-				<string>toggleUtilitiesVisibility:</string>
+				<string>uppercaseWord:</string>
 				<key>Alternate</key>
 				<string>NO</string>
 				<key>CommandID</key>
-				<string>Xcode.IDEKit.CmdDefinition.UtilitiesToggleVisibility</string>
+				<string>Xcode.IDEKit.CmdDefinition.MakeUpperCase</string>
+				<key>Group</key>
+				<string>Edit Menu</string>
+				<key>GroupID</key>
+				<string>Xcode.IDEKit.MenuDefinition.Main</string>
+				<key>GroupedAlternate</key>
+				<string>NO</string>
+				<key>Keyboard Shortcut</key>
+				<string>^~@u</string>
+				<key>Navigation</key>
+				<string>NO</string>
+				<key>Parent Title</key>
+				<string>Transformations</string>
+				<key>Title</key>
+				<string>Make Upper Case</string>
+			</dict>
+			<dict>
+				<key>Action</key>
+				<string>toggleNavigatorsVisibility:</string>
+				<key>Alternate</key>
+				<string>NO</string>
+				<key>CommandID</key>
+				<string>Xcode.IDEKit.CmdDefinition.NavigatorsToggleVisibility</string>
 				<key>Group</key>
 				<string>View Menu</string>
 				<key>GroupID</key>
@@ -148,443 +124,31 @@
 				<key>GroupedAlternate</key>
 				<string>NO</string>
 				<key>Keyboard Shortcut</key>
-				<string>@=</string>
+				<string>^@0</string>
 				<key>Navigation</key>
 				<string>NO</string>
 				<key>Parent Title</key>
-				<string>Utilities</string>
+				<string>Navigators</string>
 				<key>Title</key>
-				<string>Show Utilities</string>
+				<string>Show Navigator</string>
 			</dict>
 			<dict>
 				<key>Action</key>
-				<string>toggleUtilitiesVisibilityAlternate:</string>
+				<string>stepIntoInstruction:</string>
 				<key>Alternate</key>
-				<string>YES</string>
+				<string>NO</string>
 				<key>CommandID</key>
-				<string>Xcode.IDEKit.CmdDefinition.UtilitiesToggleVisibility.Alternate</string>
+				<string>Xcode.IDEKit.CmdDefinition.StepIntoInstruction</string>
 				<key>Group</key>
-				<string>View Menu</string>
+				<string>Debug Menu</string>
 				<key>GroupID</key>
 				<string>Xcode.IDEKit.MenuDefinition.Main</string>
 				<key>GroupedAlternate</key>
 				<string>NO</string>
-				<key>Keyboard Shortcut</key>
-				<string>^@=</string>
-				<key>Navigation</key>
-				<string>NO</string>
-				<key>Parent Title</key>
-				<string>Utilities</string>
-				<key>Title</key>
-				<string>Show Utilities</string>
-			</dict>
-			<dict>
-				<key>Action</key>
-				<string>complete:</string>
-				<key>Alternate</key>
-				<string>NO</string>
-				<key>CommandGroupID</key>
-				<string>Xcode.IDESourceEditor.CmdDefinition.ShowHideCompletions</string>
-				<key>CommandID</key>
-				<string>Xcode.IDESourceEditor.CmdDefinition.ShowHideCompletions</string>
-				<key>Group</key>
-				<string>Editor Menu for Data Model Comparison</string>
-				<key>GroupID</key>
-				<string>Xcode.IDESourceCodeComparisonEditor.MenuDefinition.Editor</string>
-				<key>GroupedAlternate</key>
-				<string>NO</string>
 				<key>Navigation</key>
 				<string>NO</string>
 				<key>Title</key>
-				<string>Show Completions</string>
-			</dict>
-			<dict>
-				<key>Action</key>
-				<string>foldAllComments:</string>
-				<key>Alternate</key>
-				<string>NO</string>
-				<key>CommandGroupID</key>
-				<string>Xcode.IDESourceEditor.CmdDefinition.FoldCommentBlocks</string>
-				<key>CommandID</key>
-				<string>Xcode.IDESourceEditor.CmdDefinition.FoldCommentBlocks</string>
-				<key>Group</key>
-				<string>Editor Menu for Data Model Comparison</string>
-				<key>GroupID</key>
-				<string>Xcode.IDESourceCodeComparisonEditor.MenuDefinition.Editor</string>
-				<key>GroupedAlternate</key>
-				<string>NO</string>
-				<key>Navigation</key>
-				<string>NO</string>
-				<key>Parent Title</key>
-				<string>Code Folding</string>
-				<key>Title</key>
-				<string>Fold Comment Blocks</string>
-			</dict>
-			<dict>
-				<key>Action</key>
-				<string>unfoldAllComments:</string>
-				<key>Alternate</key>
-				<string>NO</string>
-				<key>CommandGroupID</key>
-				<string>Xcode.IDESourceEditor.CmdDefinition.UnfoldCommentBlocks</string>
-				<key>CommandID</key>
-				<string>Xcode.IDESourceEditor.CmdDefinition.UnfoldCommentBlocks</string>
-				<key>Group</key>
-				<string>Editor Menu for Data Model Comparison</string>
-				<key>GroupID</key>
-				<string>Xcode.IDESourceCodeComparisonEditor.MenuDefinition.Editor</string>
-				<key>GroupedAlternate</key>
-				<string>NO</string>
-				<key>Navigation</key>
-				<string>NO</string>
-				<key>Parent Title</key>
-				<string>Code Folding</string>
-				<key>Title</key>
-				<string>Unfold Comment Blocks</string>
-			</dict>
-			<dict>
-				<key>Action</key>
-				<string>addBookmark:</string>
-				<key>Alternate</key>
-				<string>NO</string>
-				<key>CommandID</key>
-				<string>Xcode.IDEDocViewer.CmdDefinition.AddBookmark</string>
-				<key>Group</key>
-				<string>Editor Menu for Documentation</string>
-				<key>GroupID</key>
-				<string>Xcode.IDEKit.MenuDefinition.DocViewingEditorMenu</string>
-				<key>GroupedAlternate</key>
-				<string>NO</string>
-				<key>Keyboard Shortcut</key>
-				<string>^$D</string>
-				<key>Navigation</key>
-				<string>NO</string>
-				<key>Parent Title</key>
-				<string>Share</string>
-				<key>Title</key>
-				<string>Add Bookmark</string>
-			</dict>
-			<dict>
-				<key>Action</key>
-				<string>gpuZoomActual:</string>
-				<key>Alternate</key>
-				<string>NO</string>
-				<key>CommandID</key>
-				<string>Xcode.GPUToolsKit.CmdDefinition.ZoomActual</string>
-				<key>Group</key>
-				<string>Editor Menu for GPU Frame Debugger</string>
-				<key>GroupID</key>
-				<string>Xcode.GPUTraceEditor.MenuDefinition.Editor.Trace</string>
-				<key>GroupedAlternate</key>
-				<string>NO</string>
-				<key>Navigation</key>
-				<string>NO</string>
-				<key>Title</key>
-				<string>Zoom Actual</string>
-			</dict>
-			<dict>
-				<key>Action</key>
-				<string>gpuZoomToFit:</string>
-				<key>Alternate</key>
-				<string>NO</string>
-				<key>CommandID</key>
-				<string>Xcode.GPUToolsKit.CmdDefinition.ZoomToFit</string>
-				<key>Group</key>
-				<string>Editor Menu for GPU Frame Debugger</string>
-				<key>GroupID</key>
-				<string>Xcode.GPUTraceEditor.MenuDefinition.Editor.Trace</string>
-				<key>GroupedAlternate</key>
-				<string>NO</string>
-				<key>Navigation</key>
-				<string>NO</string>
-				<key>Title</key>
-				<string>Zoom To Fit</string>
-			</dict>
-			<dict>
-				<key>Action</key>
-				<string>gpuZoomActual:</string>
-				<key>Alternate</key>
-				<string>NO</string>
-				<key>CommandID</key>
-				<string>Xcode.GPUToolsKit.CmdDefinition.ZoomActual</string>
-				<key>Group</key>
-				<string>Editor Menu for GPU Frame Debugger Resources</string>
-				<key>GroupID</key>
-				<string>Xcode.GPUTraceEditor.MenuDefinition.Editor.Resources</string>
-				<key>GroupedAlternate</key>
-				<string>NO</string>
-				<key>Navigation</key>
-				<string>NO</string>
-				<key>Title</key>
-				<string>Zoom Actual</string>
-			</dict>
-			<dict>
-				<key>Action</key>
-				<string>gpuZoomToFit:</string>
-				<key>Alternate</key>
-				<string>NO</string>
-				<key>CommandID</key>
-				<string>Xcode.GPUToolsKit.CmdDefinition.ZoomToFit</string>
-				<key>Group</key>
-				<string>Editor Menu for GPU Frame Debugger Resources</string>
-				<key>GroupID</key>
-				<string>Xcode.GPUTraceEditor.MenuDefinition.Editor.Resources</string>
-				<key>GroupedAlternate</key>
-				<string>NO</string>
-				<key>Navigation</key>
-				<string>NO</string>
-				<key>Title</key>
-				<string>Zoom To Fit</string>
-			</dict>
-			<dict>
-				<key>Action</key>
-				<string>sizeSelectionToFit:</string>
-				<key>Alternate</key>
-				<string>NO</string>
-				<key>CommandGroupID</key>
-				<string>Xcode.InterfaceBuilderKit.CmdDefinition.SizeToFit</string>
-				<key>CommandID</key>
-				<string>Xcode.InterfaceBuilderKit.CmdDefinition.SizeToFit</string>
-				<key>Group</key>
-				<string>Editor Menu for Interface Builder - Storyboard</string>
-				<key>GroupID</key>
-				<string>Xcode.InterfaceBuilderKit.DocumentEditorMenu</string>
-				<key>GroupedAlternate</key>
-				<string>NO</string>
-				<key>Navigation</key>
-				<string>NO</string>
-				<key>Title</key>
-				<string>Size to Fit Content</string>
-			</dict>
-			<dict>
-				<key>Action</key>
-				<string>complete:</string>
-				<key>Alternate</key>
-				<string>NO</string>
-				<key>CommandGroupID</key>
-				<string>Xcode.IDESourceEditor.CmdDefinition.ShowHideCompletions</string>
-				<key>CommandID</key>
-				<string>Xcode.IDESourceEditor.CmdDefinition.ShowHideCompletions</string>
-				<key>Group</key>
-				<string>Editor Menu for Playground</string>
-				<key>GroupID</key>
-				<string>Xcode.IDEPlaygroundEditor.MenuDefinition.Editor</string>
-				<key>GroupedAlternate</key>
-				<string>NO</string>
-				<key>Navigation</key>
-				<string>NO</string>
-				<key>Title</key>
-				<string>Show Completions</string>
-			</dict>
-			<dict>
-				<key>Action</key>
-				<string>foldAllComments:</string>
-				<key>Alternate</key>
-				<string>NO</string>
-				<key>CommandGroupID</key>
-				<string>Xcode.IDESourceEditor.CmdDefinition.FoldCommentBlocks</string>
-				<key>CommandID</key>
-				<string>Xcode.IDESourceEditor.CmdDefinition.FoldCommentBlocks</string>
-				<key>Group</key>
-				<string>Editor Menu for Playground</string>
-				<key>GroupID</key>
-				<string>Xcode.IDEPlaygroundEditor.MenuDefinition.Editor</string>
-				<key>GroupedAlternate</key>
-				<string>NO</string>
-				<key>Navigation</key>
-				<string>NO</string>
-				<key>Parent Title</key>
-				<string>Code Folding</string>
-				<key>Title</key>
-				<string>Fold Comment Blocks</string>
-			</dict>
-			<dict>
-				<key>Action</key>
-				<string>unfoldAllComments:</string>
-				<key>Alternate</key>
-				<string>NO</string>
-				<key>CommandGroupID</key>
-				<string>Xcode.IDESourceEditor.CmdDefinition.UnfoldCommentBlocks</string>
-				<key>CommandID</key>
-				<string>Xcode.IDESourceEditor.CmdDefinition.UnfoldCommentBlocks</string>
-				<key>Group</key>
-				<string>Editor Menu for Playground</string>
-				<key>GroupID</key>
-				<string>Xcode.IDEPlaygroundEditor.MenuDefinition.Editor</string>
-				<key>GroupedAlternate</key>
-				<string>NO</string>
-				<key>Navigation</key>
-				<string>NO</string>
-				<key>Parent Title</key>
-				<string>Code Folding</string>
-				<key>Title</key>
-				<string>Unfold Comment Blocks</string>
-			</dict>
-			<dict>
-				<key>Action</key>
-				<string>complete:</string>
-				<key>Alternate</key>
-				<string>NO</string>
-				<key>CommandGroupID</key>
-				<string>Xcode.IDESourceEditor.CmdDefinition.ShowHideCompletions</string>
-				<key>CommandID</key>
-				<string>Xcode.IDESourceEditor.CmdDefinition.ShowHideCompletions</string>
-				<key>Group</key>
-				<string>Editor Menu for Source Code</string>
-				<key>GroupID</key>
-				<string>Xcode.IDESourceEditor.MenuDefinition.Editor</string>
-				<key>GroupedAlternate</key>
-				<string>NO</string>
-				<key>Navigation</key>
-				<string>NO</string>
-				<key>Title</key>
-				<string>Show Completions</string>
-			</dict>
-			<dict>
-				<key>Action</key>
-				<string>foldAllComments:</string>
-				<key>Alternate</key>
-				<string>NO</string>
-				<key>CommandGroupID</key>
-				<string>Xcode.IDESourceEditor.CmdDefinition.FoldCommentBlocks</string>
-				<key>CommandID</key>
-				<string>Xcode.IDESourceEditor.CmdDefinition.FoldCommentBlocks</string>
-				<key>Group</key>
-				<string>Editor Menu for Source Code</string>
-				<key>GroupID</key>
-				<string>Xcode.IDESourceEditor.MenuDefinition.Editor</string>
-				<key>GroupedAlternate</key>
-				<string>NO</string>
-				<key>Navigation</key>
-				<string>NO</string>
-				<key>Parent Title</key>
-				<string>Code Folding</string>
-				<key>Title</key>
-				<string>Fold Comment Blocks</string>
-			</dict>
-			<dict>
-				<key>Action</key>
-				<string>unfoldAllComments:</string>
-				<key>Alternate</key>
-				<string>NO</string>
-				<key>CommandGroupID</key>
-				<string>Xcode.IDESourceEditor.CmdDefinition.UnfoldCommentBlocks</string>
-				<key>CommandID</key>
-				<string>Xcode.IDESourceEditor.CmdDefinition.UnfoldCommentBlocks</string>
-				<key>Group</key>
-				<string>Editor Menu for Source Code</string>
-				<key>GroupID</key>
-				<string>Xcode.IDESourceEditor.MenuDefinition.Editor</string>
-				<key>GroupedAlternate</key>
-				<string>NO</string>
-				<key>Navigation</key>
-				<string>NO</string>
-				<key>Parent Title</key>
-				<string>Code Folding</string>
-				<key>Title</key>
-				<string>Unfold Comment Blocks</string>
-			</dict>
-			<dict>
-				<key>Action</key>
-				<string>complete:</string>
-				<key>Alternate</key>
-				<string>NO</string>
-				<key>CommandGroupID</key>
-				<string>Xcode.IDESourceEditor.CmdDefinition.ShowHideCompletions</string>
-				<key>CommandID</key>
-				<string>Xcode.IDESourceEditor.CmdDefinition.ShowHideCompletions</string>
-				<key>Group</key>
-				<string>Editor Menu for Source Code Comparison</string>
-				<key>GroupID</key>
-				<string>Xcode.IDESourceCodeComparisonEditor.MenuDefinition.Editor</string>
-				<key>GroupedAlternate</key>
-				<string>NO</string>
-				<key>Navigation</key>
-				<string>NO</string>
-				<key>Title</key>
-				<string>Show Completions</string>
-			</dict>
-			<dict>
-				<key>Action</key>
-				<string>foldAllComments:</string>
-				<key>Alternate</key>
-				<string>NO</string>
-				<key>CommandGroupID</key>
-				<string>Xcode.IDESourceEditor.CmdDefinition.FoldCommentBlocks</string>
-				<key>CommandID</key>
-				<string>Xcode.IDESourceEditor.CmdDefinition.FoldCommentBlocks</string>
-				<key>Group</key>
-				<string>Editor Menu for Source Code Comparison</string>
-				<key>GroupID</key>
-				<string>Xcode.IDESourceCodeComparisonEditor.MenuDefinition.Editor</string>
-				<key>GroupedAlternate</key>
-				<string>NO</string>
-				<key>Navigation</key>
-				<string>NO</string>
-				<key>Parent Title</key>
-				<string>Code Folding</string>
-				<key>Title</key>
-				<string>Fold Comment Blocks</string>
-			</dict>
-			<dict>
-				<key>Action</key>
-				<string>unfoldAllComments:</string>
-				<key>Alternate</key>
-				<string>NO</string>
-				<key>CommandGroupID</key>
-				<string>Xcode.IDESourceEditor.CmdDefinition.UnfoldCommentBlocks</string>
-				<key>CommandID</key>
-				<string>Xcode.IDESourceEditor.CmdDefinition.UnfoldCommentBlocks</string>
-				<key>Group</key>
-				<string>Editor Menu for Source Code Comparison</string>
-				<key>GroupID</key>
-				<string>Xcode.IDESourceCodeComparisonEditor.MenuDefinition.Editor</string>
-				<key>GroupedAlternate</key>
-				<string>NO</string>
-				<key>Navigation</key>
-				<string>NO</string>
-				<key>Parent Title</key>
-				<string>Code Folding</string>
-				<key>Title</key>
-				<string>Unfold Comment Blocks</string>
-			</dict>
-			<dict>
-				<key>Action</key>
-				<string>editorMenuTogglePlayPause:</string>
-				<key>Alternate</key>
-				<string>NO</string>
-				<key>CommandGroupID</key>
-				<string>Xcode.SpriteKit.CmdDefinition.TogglePauseSimulate</string>
-				<key>CommandID</key>
-				<string>Xcode.SpriteKit.CmdDefinition.TogglePauseSimulate</string>
-				<key>Group</key>
-				<string>Editor Menu for SpriteKit Editor</string>
-				<key>GroupID</key>
-				<string>Xcode.SpriteKit.MenuDefinition.Editor</string>
-				<key>GroupedAlternate</key>
-				<string>NO</string>
-				<key>Navigation</key>
-				<string>NO</string>
-				<key>Title</key>
-				<string>Edit / Simulate</string>
-			</dict>
-			<dict>
-				<key>Action</key>
-				<string>zoomActualCanvas:</string>
-				<key>Alternate</key>
-				<string>NO</string>
-				<key>CommandID</key>
-				<string>Xcode.DBGViewDebuggerEditor.CmdDefinition.ZoomActualCanvas</string>
-				<key>Group</key>
-				<string>Xcode.DBGViewDebuggerEditor.MenuDefinition.Editor Menu for Xcode.IDEKit.EditorDocument.ViewDebuggerDocument</string>
-				<key>GroupID</key>
-				<string>Xcode.DBGViewDebuggerEditor.MenuDefinition.Editor</string>
-				<key>GroupedAlternate</key>
-				<string>NO</string>
-				<key>Navigation</key>
-				<string>NO</string>
-				<key>Title</key>
-				<string>Zoom Actual</string>
+				<string>Step Into Instruction</string>
 			</dict>
 			<dict>
 				<key>Action</key>
@@ -608,81 +172,43 @@
 			</dict>
 			<dict>
 				<key>Action</key>
-				<string>stepIntoInstruction:</string>
+				<string>toggleDisplayMode:</string>
 				<key>Alternate</key>
 				<string>NO</string>
 				<key>CommandID</key>
-				<string>Xcode.IDEKit.CmdDefinition.StepIntoInstruction</string>
+				<string>Xcode.IDEPlaygroundEditor.CmdDefinition.ToggleDisplayMode</string>
 				<key>Group</key>
-				<string>Debug Menu</string>
+				<string>Editor Menu for Playground</string>
 				<key>GroupID</key>
-				<string>Xcode.IDEKit.MenuDefinition.Main</string>
-				<key>GroupedAlternate</key>
-				<string>NO</string>
-				<key>Navigation</key>
-				<string>NO</string>
-				<key>Title</key>
-				<string>Step Into Instruction</string>
-			</dict>
-			<dict>
-				<key>Action</key>
-				<string>createSymbolicBreakpoint:</string>
-				<key>Alternate</key>
-				<string>NO</string>
-				<key>CommandID</key>
-				<string>Xcode.IDEKit.CmdDefinition.CreateSymbolicBreakpoint</string>
-				<key>Group</key>
-				<string>Debug Menu</string>
-				<key>GroupID</key>
-				<string>Xcode.IDEKit.MenuDefinition.Main</string>
-				<key>GroupedAlternate</key>
-				<string>NO</string>
-				<key>Navigation</key>
-				<string>NO</string>
-				<key>Parent Title</key>
-				<string>Breakpoints</string>
-				<key>Title</key>
-				<string>Create Symbolic Breakpoint…</string>
-			</dict>
-			<dict>
-				<key>Action</key>
-				<string>selectNextTab:</string>
-				<key>Alternate</key>
-				<string>NO</string>
-				<key>CommandID</key>
-				<string>Xcode.IDEKit.CmdDefinition.SelectNextTab</string>
-				<key>Group</key>
-				<string>Window Menu</string>
-				<key>GroupID</key>
-				<string>Xcode.IDEKit.MenuDefinition.Main</string>
+				<string>Xcode.IDEPegasusPlaygroundEditor.MenuDefinition.Editor</string>
 				<key>GroupedAlternate</key>
 				<string>NO</string>
 				<key>Keyboard Shortcut</key>
-				<string>^$@</string>
+				<string>~m</string>
 				<key>Navigation</key>
 				<string>NO</string>
 				<key>Title</key>
-				<string>Show Next Tab</string>
+				<string>Show Rendered Markup</string>
 			</dict>
 			<dict>
 				<key>Action</key>
-				<string>selectPreviousTab:</string>
+				<string>sizeSelectionToFit:</string>
 				<key>Alternate</key>
 				<string>NO</string>
+				<key>CommandGroupID</key>
+				<string>Xcode.InterfaceBuilderKit.CmdDefinition.SizeToFit</string>
 				<key>CommandID</key>
-				<string>Xcode.IDEKit.CmdDefinition.SelectPreviousTab</string>
+				<string>Xcode.InterfaceBuilderKit.CmdDefinition.SizeToFit</string>
 				<key>Group</key>
-				<string>Window Menu</string>
+				<string>Editor Menu for Interface Builder - Storyboard</string>
 				<key>GroupID</key>
-				<string>Xcode.IDEKit.MenuDefinition.Main</string>
+				<string>Xcode.InterfaceBuilderKit.DocumentEditorMenu</string>
 				<key>GroupedAlternate</key>
 				<string>NO</string>
-				<key>Keyboard Shortcut</key>
-				<string>^$@</string>
 				<key>Navigation</key>
 				<string>NO</string>
 				<key>Title</key>
-				<string>Show Previous Tab</string>
+				<string>Size to Fit Content</string>
 			</dict>
 		</array>
 		<key>Version</key>
@@ -694,8 +220,17 @@
 		<dict>
 			<key></key>
 			<array>
-				<string>scrollPageUp:</string>
 				<string>scrollPageDown:</string>
+				<string>scrollPageUp:</string>
+			</array>
+			<key>@d</key>
+			<array>
+				<string>deleteToBeginningOfLine:</string>
+				<string>moveToEndOfLine:</string>
+				<string>deleteToBeginningOfLine:</string>
+				<string>deleteBackward:</string>
+				<string>moveDown:</string>
+				<string>moveToBeginningOfLine:</string>
 			</array>
 			<key>^~@i</key>
 			<string>selectWord:</string>
